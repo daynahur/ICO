@@ -1,10 +1,6 @@
 pragma solidity ^0.4.15;
 
 import './SafeMath.sol';
- 
-contract ContractReceiver {
-    function tokenFallback(address _from, uint _value, bytes _data);
-}
 
 contract CoinvestToken {
     function transfer(address _to, uint256 _amount);
